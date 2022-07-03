@@ -296,9 +296,6 @@ img {
 /* Team section */
 
 .team {
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
     background-color: var(--fone-cl);
 } 
 
@@ -519,6 +516,7 @@ img {
 
 .footer-flex {
     display: flex;
+    align-items: baseline;
 }
 
 
@@ -556,7 +554,7 @@ img {
     color: var(--white-cl);
 }
 
-.footer-icons {
+.footer-list {
     display: flex;
     margin-top: 20px;
 }
